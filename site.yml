@@ -1,0 +1,7 @@
+---
+- name: Anaconda playbook
+  hosts: all
+  
+  roles:
+     - anaconda
+     
