@@ -1,6 +1,6 @@
 ---
 - name: Anaconda playbook
-  hosts: localhost
+  hosts: all
   
   roles:
      - anaconda
