@@ -2,8 +2,8 @@
 - name: Make Anaconda directory
   file:
     path: /tmp/apps
-    owner: ec2-user
-    group: ec2-user
+    owner: ansible
+    group: ansible
     mode: 0755
     state: directory
     
