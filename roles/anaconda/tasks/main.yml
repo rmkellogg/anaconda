@@ -7,7 +7,7 @@
     mode: 0755
     state: directory
 
-- name: Install the latest version of Anaconda
-  yum:
-    name: anaconda
-    state: latest
+# - name: Install the latest version of Anaconda
+#  yum:
+#    name: anaconda
+#    state: latest
