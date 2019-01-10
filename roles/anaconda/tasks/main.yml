@@ -10,7 +10,8 @@
 - debug: 
     msg: "Preparing to install software"
 
-- yum: Install the latest version of nginx
+- name: Install the latest version of nginx
+  yum: 
    name: nginx
    state: latest
 
