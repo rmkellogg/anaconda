@@ -1,5 +1,5 @@
 ---
-- name: Make Anaconda directory
+- name: Make scratch directory
   file:
     path: /tmp/apps
     owner: ansible
@@ -7,28 +7,28 @@
     mode: 0755
     state: directory
 
-- name: Register as user with password and auto-subscribe to available content.
-  redhat_subscription:
-    state: present
-    username: rkellogg@dqtools.com
-    password: Melock68!
-    auto_attach: true
-    
-- debug: 
-    msg: "Preparing to install R"
-
-- name: Install the latest version of R
-  yum: 
-   name: R
-   state: latest
-
-- debug: 
-    msg: "Preparing to install Anaconda"
-
-- name: Install the latest version of Anaconda
-  yum: 
-    name: anaconda
-    state: latest
-
-- debug: 
-    msg: "Reached end of installation"
+# - name: Register as user with password and auto-subscribe to available content.
+#   redhat_subscription:
+#     state: present
+#     username: rkellogg@dqtools.com
+#     password: Melock68!
+#     auto_attach: true
+#    
+# - debug: 
+#    msg: "Preparing to install R"
+#
+# - name: Install the latest version of R
+#  yum: 
+#   name: R
+#   state: latest
+#
+# - debug: 
+#    msg: "Preparing to install Anaconda"
+#
+# - name: Install the latest version of Anaconda
+#   yum: 
+#     name: anaconda
+#     state: latest
+# 
+# - debug: 
+#     msg: "Reached end of installation"
