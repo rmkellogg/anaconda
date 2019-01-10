@@ -10,9 +10,9 @@
 - debug: 
     msg: "Preparing to install software"
 
-- name: Install the latest version of nginx
+- name: Install the latest version of R
   yum: 
-   name: nginx
+   name: R
    state: latest
 
 # - yum: Install the latest version of Anaconda
