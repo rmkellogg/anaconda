@@ -10,13 +10,11 @@
 - debug: 
     msg: "Preparing to install software"
 
-- name: Install the latest version of nginx
-   yum:
+- yum: Install the latest version of nginx
    name: nginx
    state: latest
 
-# - name: Install the latest version of Anaconda
-#  yum:
+# - yum: Install the latest version of Anaconda
 #    name: anaconda
 #    state: latest
 
