@@ -10,12 +10,13 @@
 - debug: 
     msg: "Preparing to install software"
 
-- name: Install the latest version of R
-  yum: 
-   name: R
-   state: latest
+# - name: Install the latest version of R
+#  yum: 
+#   name: R
+#   state: latest
 
-# - yum: Install the latest version of Anaconda
+# - name: Install the latest version of Anaconda
+#    yum: 
 #    name: anaconda
 #    state: latest
 
