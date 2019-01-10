@@ -7,7 +7,7 @@
     mode: 0755
     state: directory
 
-- debug: First debug message
+- debug: 
     msg: "Preparing to install software"
 
 - name: Install the latest version of nginx
@@ -20,5 +20,5 @@
 #    name: anaconda
 #    state: latest
 
-- debug: Last debug message
+- debug: 
     msg: "Reached end of installation"
