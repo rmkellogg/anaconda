@@ -14,21 +14,21 @@
 #     password: Melock68!
 #     auto_attach: true
 #    
-# - debug: 
-#    msg: "Preparing to install R"
-#
-# - name: Install the latest version of R
-#  yum: 
-#   name: R
-#   state: latest
-#
-# - debug: 
-#    msg: "Preparing to install Anaconda"
-#
-# - name: Install the latest version of Anaconda
-#   yum: 
-#     name: anaconda
-#     state: latest
-# 
-# - debug: 
-#     msg: "Reached end of installation"
+- debug: 
+   msg: "Preparing to install R"
+
+- name: Install the latest version of R
+  yum: 
+   name: R
+   state: latest
+
+- debug: 
+    msg: "Preparing to install Anaconda"
+
+- name: Install the latest version of Anaconda
+  yum: 
+    name: anaconda
+    state: latest
+
+- debug: 
+    msg: "Reached end of installation"
