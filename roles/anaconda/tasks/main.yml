@@ -26,7 +26,7 @@
     msg: "Preparing to install Anaconda"
 
 - name: Install the latest version of Anaconda
-    yum: 
+  yum: 
     name: anaconda
     state: latest
 
