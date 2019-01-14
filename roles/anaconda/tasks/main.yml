@@ -15,7 +15,7 @@
 #     auto_attach: true
 #    
 - debug: 
-  msg: "Preparing to install R"
+    msg: "Preparing to install R"
 
 - name: Install the latest version of R
   yum: 
