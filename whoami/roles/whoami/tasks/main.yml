@@ -1,3 +1,15 @@
 ---
 - name: Who Am I
   shell: whoami > /tmp/whoami.txt
+
+- name: Make scratch directory
+  file:
+    path: /apps
+    owner: root
+    group: root
+    mode: 0755
+    state: directory
+
+- debug: 
+    msg: "Reached end of process"
+
