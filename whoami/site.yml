@@ -1,0 +1,7 @@
+---
+- name: who am i playbook
+  hosts: all
+  
+  roles:
+     - whoami
+     

@@ -1,0 +1,3 @@
+---
+- name: Who Am I
+  shell: whoami > /tmp/whoami.txt
