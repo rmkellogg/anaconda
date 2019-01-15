@@ -5,8 +5,8 @@
 - name: Make scratch directory
   file:
     path: /apps
-    owner: root
-    group: root
+#    owner: root
+#    group: root
     mode: 0755
     state: directory
 
