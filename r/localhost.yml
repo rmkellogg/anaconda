@@ -1,0 +1,7 @@
+---
+- name: R playbook
+  hosts: localhost
+  
+  roles:
+     - r
+     
