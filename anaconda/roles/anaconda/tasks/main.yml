@@ -17,10 +17,13 @@
 - debug: 
     msg: "Preparing to install Anaconda"
 
-- name: Install the latest version of Anaconda
-  yum: 
-    name: anaconda
-    state: latest
+- name: Installing Anaconda with direct yum command
+  shell: yum install anaconda
+
+#- name: Install the latest version of Anaconda
+#  yum: 
+#    name: anaconda
+#    state: latest
 
 - debug: 
     msg: "Reached end of installation"
