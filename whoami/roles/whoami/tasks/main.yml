@@ -11,5 +11,8 @@
     state: directory
 
 - debug: 
+    msg: "Hello there -- {{ var1 }}"
+
+- debug: 
     msg: "Reached end of process"
 
